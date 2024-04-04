@@ -1,0 +1,20 @@
+#fondo {
+
+    background-color: black;
+}
+
+
+.imagen {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     width: 40%;
+     height: 40%;
+     margin: 190px;
+     margin-left: 25%;
+    
+}
+
+#bordeimg {
+    border: 2px solid transparent;
+}
