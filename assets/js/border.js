@@ -1,5 +1,13 @@
-
+let estado=true;
 function cambiaborde() {
     colorimg = document.getElementById('bordeimg');
-    colorimg.style.border='5px solid red';
+   /*  alert(colorimg.style); */
+      if (estado) {
+        colorimg.style.border='5px solid red';
+        estado = false;
+      } else {
+        colorimg.style.border='5px solid transparent';
+        estado = true;
+      }
+    
 }
